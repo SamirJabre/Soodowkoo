@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&display=swap');
+.LandingBtn {
+  background-color: #f37b31;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  height: 90px;
+  width: 250px;
+  font-size: 2rem;
+  color: white;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 200;
+  cursor: pointer;
+  transition: 0.3s;
+  user-select: none;
+}
+.LandingBtn:hover {
+  background-color: #f37b31;
+  transform: scale(1.1);
+}
