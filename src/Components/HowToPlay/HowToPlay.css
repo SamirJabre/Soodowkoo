@@ -1,0 +1,53 @@
+.howToPlayContainer {
+  position: absolute;
+  align-self: center;
+  height: 80%;
+  width: 50%;
+  background-color: #313168;
+  border: 15px solid #f37b31;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.upperText {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+.upperText div {
+  height: 55%;
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upperText div img {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s;
+  user-select: none;
+}
+.upperText div img:hover {
+  transform: scale(1.1);
+}
+
+.rulesContainer {
+  height: 85%;
+  width: 100%;
+  padding: 10px 50px;
+}
+.rulesContainer ul {
+  width: 100%;
+  height: fit-content;
+}
+.rulesContainer ul li {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}

@@ -2,10 +2,11 @@ import './LandingButton.css'
 
 interface LandingButtonProps {
   text: string;
+  onpress: () => void;
 }
-function LandingButton({ text }: LandingButtonProps) {
+function LandingButton({ text , onpress}: LandingButtonProps) {
   return (
-    <button className="LandingBtn">
+    <button className="LandingBtn" onClick={onpress}>
         {text}
     </button>
   )
