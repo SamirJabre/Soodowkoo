@@ -1,0 +1,17 @@
+.DiffBtn{
+    background-color: #F37B31;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    border-radius: 15px;
+    font-size: 2rem;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.DiffBtn:hover{
+    transform: scale(1.1);
+}

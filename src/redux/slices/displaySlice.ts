@@ -1,4 +1,3 @@
-// src/displaySlice.ts
 import { createSlice } from '@reduxjs/toolkit';
 
 interface DisplayState {

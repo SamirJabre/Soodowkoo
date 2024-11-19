@@ -2,7 +2,7 @@ import './LandingButton.css'
 
 interface LandingButtonProps {
   text: string;
-  onpress: () => void;
+  onpress?: () => void;
 }
 function LandingButton({ text , onpress}: LandingButtonProps) {
   return (

@@ -1,10 +1,11 @@
-// src/store.ts
-import { configureStore } from '@reduxjs/toolkit';
-import displayReducer from './slices/displaySlice';
+import { configureStore } from "@reduxjs/toolkit";
+import displayReducer from "./slices/displaySlice";
+import displayDiffSlice from "./slices/diplayDiffSlice";
 
 export const store = configureStore({
   reducer: {
     display: displayReducer,
+    displayDifficulty: displayDiffSlice,
   },
 });
 
