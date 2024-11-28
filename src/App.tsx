@@ -1,11 +1,16 @@
 import './App.css'
+import GamePage from './pages/GamePage/GamePage'
 import LandingPage from './pages/LandingPage/LandingPage'
+import { BrowserRouter , Routes , Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-    <LandingPage />
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/soodowkoo" element={<GamePage />} />
+    </Routes>
+    </BrowserRouter>
   )
 }
 
